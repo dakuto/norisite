@@ -62,6 +62,9 @@ li {
 		text-align: center;
 		border-bottom: 1px solid;
 	}
+	li:last-child{
+		border-bottom: none;
+	}
 }
 .title-effect {
 	z-index: 99;
