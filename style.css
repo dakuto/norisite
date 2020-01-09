@@ -50,22 +50,27 @@ a {
 	color: inherit;
 	text-decoration: none;
 }
-p{
+
+p {
 	font-family: 'Kosugi Maru', sans-serif;
 }
+
 li {
 	list-style: none;
 }
-@media(max-width:769px){
-	li{
-		padding:7px 5px;
+
+@media(max-width:769px) {
+	li {
+		padding: 7px 5px;
 		text-align: center;
 		border-bottom: 1px solid;
 	}
-	li:last-child{
+
+	li:last-child {
 		border-bottom: none;
 	}
 }
+
 .title-effect {
 	z-index: 99;
 	position: relative;
@@ -207,7 +212,7 @@ section h2.sec2_h2 {
 	padding: 45px 0 45px 0;
 	margin-bottom: 0;
 	font-size: 40px;
-	
+
 }
 
 @media(max-width:767px) {
@@ -574,159 +579,166 @@ footer .footer_ul .footer_li {
 .footer-box2-2 {
 	float: right;
 }
+
 @media(max-width:769px) {
-	#sec4{
+	#sec4 {
 		height: auto;
 		padding-bottom: 100px;
 	}
+
 	#menu ul li a {
 		font-size: 15px;
 	}
-	.step2-bg-color{
-		padding:50px 0;
-		margin:0 24px;
+
+	.step2-bg-color {
+		padding: 50px 0;
+		margin: 0 24px;
 	}
+
 	.step1 .step-p {
 		padding: 15px 0px;
 		font-size: 13px;
 		margin: 10px auto;
 		color: white;
+	}
 }
-}
+
 .step1 {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 .step1 .step-list {
-    position: relative;
-    width: 180px;
-    background: #504944;
-    padding: 1em;
-    margin-bottom: 1em;
-    text-align: center;
-    color: #fff;
-    margin: 0 auto;
+	position: relative;
+	width: 180px;
+	background: #504944;
+	padding: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+	color: #fff;
+	margin: 0 auto;
 
 }
 
 .step1 .step-list:after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    bottom: -12px;
-    left: 0;
-    border-style: solid;
-    border-color: #504944 transparent transparent transparent;
-    border-width: 12px 90px 0 90px;
-    z-index: 1;
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: -12px;
+	left: 0;
+	border-style: solid;
+	border-color: #504944 transparent transparent transparent;
+	border-width: 12px 90px 0 90px;
+	z-index: 1;
 }
 
 .step-list-p {
-    margin: 0;
-    font-size: 12px;
+	margin: 0;
+	font-size: 12px;
 }
 
 .step1 .is-current {
-    background: #9bbb30;
-    font-weight: bold;
+	background: #9bbb30;
+	font-weight: bold;
 }
 
 .step1 .step-p {
-    text-align: justify;
-    padding: 5px 0;
-    font-size: 13px;
-    width: 60%;
-    margin: 10px auto;
+	text-align: justify;
+	padding: 5px 0;
+	font-size: 13px;
+	width: 60%;
+	margin: 10px auto;
 }
 
 .step1 .is-current::after {
-    border-color: #9bbb30 transparent transparent transparent;
+	border-color: #9bbb30 transparent transparent transparent;
 }
 
 
 .step2 {
-    display: table;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
+	display: table;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
 }
 
 .step2 .step-list {
-    display: table-cell;
-    position: relative;
-    background: #504944;
-    padding: 1em 0.5em 1em 2em;
-    color: #fff;
+	display: table-cell;
+	position: relative;
+	background: #504944;
+	padding: 1em 0.5em 1em 2em;
+	color: #fff;
 }
-.step2 .step-list .step-list-p{
+
+.step2 .step-list .step-list-p {
 	font-size: 14px;
 	margin-bottom: 0;
 }
 
 .step2 .step-list:last-child {
-    padding-right: 1em;
+	padding-right: 1em;
 }
 
 .step2 .step-list:last-child::before,
 .step2 .step-list:last-child::after {
-    display: none;
+	display: none;
 }
 
 .step2 .step-list::before,
 .step2 .step-list::after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    margin: auto;
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	margin: auto;
 }
 
 .step2 .step-list::before {
-    top: -15px;
-    right: -1em;
-    border-style: solid;
-    border-color: transparent transparent transparent #fff;
-    border-width: 40px 0 40px 1em;
-    z-index: 10;
+	top: -15px;
+	right: -1em;
+	border-style: solid;
+	border-color: transparent transparent transparent #fff;
+	border-width: 40px 0 40px 1em;
+	z-index: 10;
 }
 
 .step2 .step-list::after {
-    top: -15px;
-    right: -.8em;
-    border-style: solid;
-    border-color: transparent transparent transparent #504944;
-    border-width: 40px 0 40px 1em;
-    z-index: 10;
+	top: -15px;
+	right: -.8em;
+	border-style: solid;
+	border-color: transparent transparent transparent #504944;
+	border-width: 40px 0 40px 1em;
+	z-index: 10;
 }
 
 .step2 .is-current {
-    background: #9bbb30;
-    font-weight: bold;
+	background: #9bbb30;
+	font-weight: bold;
 }
 
 .step2 .is-current::after {
 
-    border-color: transparent transparent transparent #9bbb30;
+	border-color: transparent transparent transparent #9bbb30;
 }
 
-.step2_description_main{
-    display: flex;
+.step2_description_main {
+	display: flex;
 }
 
-.step2_description_sub{
-    margin: 0 10px;
-}
-.step2-bg-color{
-	background-color: rgba(0,0,0,0.5);
-    padding: 30px 20px;
+.step2_description_sub {
+	margin: 0 10px;
 }
 
+.step2-bg-color {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 30px 20px;
+}
 
 
-#page_top{
+
+#page_top {
 	width: 50px;
 	height: 50px;
 	position: fixed;
@@ -734,15 +746,17 @@ footer .footer_ul .footer_li {
 	bottom: 0;
 	background: #0f0f0f;
 	opacity: 0.8;
-  }
-  #page_top a{
+}
+
+#page_top a {
 	position: relative;
 	display: block;
 	width: 50px;
 	height: 50px;
 	text-decoration: none;
-  }
-  #page_top a::before{
+}
+
+#page_top a::before {
 	font-family: 'Font Awesome 5 Free';
 	font-weight: 900;
 	content: '\f106';
@@ -757,28 +771,38 @@ footer .footer_ul .footer_li {
 	left: 0;
 	margin: auto;
 	text-align: center;
-  }
+}
 
-  .fuwatto-wrap [class*='fuwatto'] {
+.fuwatto-wrap [class*='fuwatto'] {
 	opacity: 0;
 	transform: translate(0, 10px);
-	transition: all 0.9s; 
-  }
-  .fuwatto-wrap [class*='fuwatto'].f-act {
+	transition: all 0.9s;
+}
+
+.fuwatto-wrap [class*='fuwatto'].f-act {
 	opacity: 1;
-	transform: translate(0, 0); 
-  }
+	transform: translate(0, 0);
+}
 
 /* パソコンで見たときは"pc"のclassがついた画像が表示される */
-.pc { display: block !important; }
-.sp { display: none !important; }
+.pc {
+	display: block !important;
+}
+
+.sp {
+	display: none !important;
+}
+
 /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
 @media only screen and (max-width: 426px) {
-.pc { display: none !important; }
-.sp { 
-	display: block !important;
-	background-color: rgba(0,0,0,0.5);
-    padding: 50px 0px;
-    margin: 0 20px;
- }
+	.pc {
+		display: none !important;
+	}
+
+	.sp {
+		display: block !important;
+		background-color: rgba(0, 0, 0, 0.5);
+		padding: 50px 0px;
+		margin: 0 20px;
+	}
 }
